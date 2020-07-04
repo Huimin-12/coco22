@@ -20,7 +20,7 @@ public class TestTeskTop {
             //判断当前系统释放支持Desktop提供的接口
             if(Desktop.isDesktopSupported()){
                 try {
-                    deskapp.open(new File("F:\\常用软件安装包\\Bin\\QQScLauncher.exe"));
+                    deskapp.open(new File("F:\\软件安装启动路径文件\\QQScLauncher.exe"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
