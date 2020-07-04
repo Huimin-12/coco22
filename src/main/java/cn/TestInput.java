@@ -49,7 +49,6 @@ public class TestInput {
 
             r.keyRelease(key);
             r.keyRelease(KeyEvent.VK_CONTROL);
-
             r.delay(100);
         }
 
@@ -111,5 +110,6 @@ public class TestInput {
             r.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
             r.delay(1000);
         }
+    
 }
 
